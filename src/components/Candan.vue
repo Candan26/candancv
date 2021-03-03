@@ -15,7 +15,7 @@
 
       <div id="hrf-intro" class="profile">
         <img class="img-personal" src="../assets/images/cc.png" alt="personal image">
-        <h2>Hello.</h2>
+        <h2>About.</h2>
         <p class="intro">I am a software developer who focuses on Java, C/C++, Python languages. Currently I
           am studying for a master degree at Galatasaray University as an Computer Engineering.
           Previously I studied bachelor degree in Electrical-Electronics Engineering at Anadolu
@@ -27,7 +27,7 @@
       </div>
       <hr>
       <div id="hrf-experience" class="experience">
-        <h2 style="margin-bottom: 3%">My Experience.</h2>
+        <h2 style="margin-bottom: 3%">Experience.</h2>
         <div class="experience row">
           <div class="col-6">
             <h4>Softtech</h4>
@@ -129,7 +129,7 @@
       </div>
       <hr>
       <div id="hrf-education" class="education">
-        <h2 style="margin-bottom: 3%">My Education.</h2>
+        <h2 style="margin-bottom: 3%">Education.</h2>
         <div class="education row">
           <div class="col-6">
             <h4>Galatasaray University</h4>
@@ -177,7 +177,7 @@
       </diV>
       <hr>
       <div id="hrf-skills" class="skills">
-        <h2>My Skills.</h2>
+        <h2>Skills.</h2>
         <div class="programming skill-row">
           <iframe class="frame-coding" src="https://giphy.com/embed/ZVik7pBtu9dNS" width="480" height="268"
                   frameBorder="0"></iframe>
@@ -236,7 +236,7 @@
               </li>
 
               <li class="liStarRating">
-                <strong>Splunk <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
+                <strong>Splunk <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
                 </strong>
               </li>
             </ul>
@@ -673,6 +673,11 @@ a:hover {
     border-bottom: none;
     width: 30%;
     margin: 10px auto;
+  }
+
+  #about, #myExperience,   #myEducation, #mySkills,   #contact  {
+    display: none;
+
   }
 }
 </style>
