@@ -184,12 +184,24 @@
           <h3>Programming Languages</h3>
           <div>
             <ul class="ulStarRating col-6">
-              <li class="liStarRating"><strong>Java <star-rating :rating="4" :read-only="true" :star-size="13" :inline="true" :show-rating="false"></star-rating></strong></li>
-              <li class="liStarRating"><strong>C/C++ <star-rating :rating="4" :read-only="true" :star-size="13" :inline="true" :show-rating="false"></star-rating></strong></li>
+              <li class="liStarRating"><strong>Java
+                <star-rating :rating="4" :read-only="true" :star-size="13" :inline="true"
+                             :show-rating="false"></star-rating>
+              </strong></li>
+              <li class="liStarRating"><strong>C/C++
+                <star-rating :rating="4" :read-only="true" :star-size="13" :inline="true"
+                             :show-rating="false"></star-rating>
+              </strong></li>
             </ul>
             <ul class="ulStarRating col-5">
-              <li class="liStarRating"><strong>VueJs <star-rating :rating="3" :read-only="true" :star-size="13" :inline="true" :show-rating="false"></star-rating></strong></li>
-              <li class="liStarRating"><strong>Python <star-rating :rating="3" :read-only="true" :star-size="13" :inline="true" :show-rating="false"></star-rating></strong></li>
+              <li class="liStarRating"><strong>VueJs
+                <star-rating :rating="3" :read-only="true" :star-size="13" :inline="true"
+                             :show-rating="false"></star-rating>
+              </strong></li>
+              <li class="liStarRating"><strong>Python
+                <star-rating :rating="3" :read-only="true" :star-size="13" :inline="true"
+                             :show-rating="false"></star-rating>
+              </strong></li>
             </ul>
           </div>
 
@@ -201,73 +213,116 @@
           <div>
             <ul class="ulStarRating col-6">
               <li class="liStarRating">
-                <strong>Oracle  <star-rating :rating="3.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>Oracle
+                  <star-rating :rating="3.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>DB2 <star-rating :rating="3.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>DB2
+                  <star-rating :rating="3.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>Postgre <star-rating :rating="3.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>Postgre
+                  <star-rating :rating="3.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>IBM-WAS <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>IBM-WAS
+                  <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>XL-Release <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>XL-Release
+                  <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
             </ul>
 
             <ul class="ulStarRating col-6">
               <li class="liStarRating">
-                <strong>Git/Bash <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
+                <strong>Git/Bash
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
                 </strong>
               </li>
               <li class="liStarRating">
-                <strong>SVN <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
+                <strong>SVN
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
                 </strong>
               </li>
               <li class="liStarRating">
-                <strong>Jira <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
+                <strong>Jira
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
                 </strong>
               </li>
               <li class="liStarRating">
-                <strong>Linux <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
+                <strong>Linux
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
                 </strong>
               </li>
 
               <li class="liStarRating">
-                <strong>Splunk <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating>
+                <strong>Splunk
+                  <star-rating :rating="2.5" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
                 </strong>
               </li>
             </ul>
 
           </div>
 
-       </div>
+        </div>
         <div class="hardware skill-row">
           <img class="img-iot" src="../assets/images/pcb1.png" alt="iot-img">
           <h3>Hardware Designing</h3>
           <div>
             <ul class="ulStarRating col-6">
               <li class="liStarRating">
-                <strong>Altium Designer<star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>Altium Designer
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>MCU <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>MCU
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>IOT <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>IOT
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
             </ul>
             <ul class="ulStarRating col-6">
               <li class="liStarRating">
-                <strong>RF Design <star-rating :rating="3" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>RF Design
+                  <star-rating :rating="3" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>Eagle CAD <star-rating :rating="2" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>Eagle CAD
+                  <star-rating :rating="2" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
               <li class="liStarRating">
-                <strong>Serial Comm. <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true" :show-rating="false"></star-rating></strong>
+                <strong>Serial Comm.
+                  <star-rating :rating="4" :read-only="true" :star-size="13" :increment="0.5" :inline="true"
+                               :show-rating="false"></star-rating>
+                </strong>
               </li>
             </ul>
           </div>
@@ -352,8 +407,7 @@ export default {
       dismissCountDown: 0,
       showDismissibleAlert: false,
       message: '',
-      nameState: null,
-      submittedNames: []
+      nameState: null
     }
   },
   methods: {
@@ -379,14 +433,13 @@ export default {
       this.handleSubmit()
     },
     handleSubmit() {
-      // Exit when the form isn't valid
       if (!this.checkFormValidity()) {
         return
       }
-      // Push the name to submitted names
-      this.submittedNames.push(+this.message + ",!")
-      console.log("this.message " + this.message)
-      console.log("this.submittedNames " + this.submittedNames)
+      const requestOptions = {
+        method: "POST"
+      };
+      fetch('http://165.22.200.210:7547/api/website/addMessage/?name=candan&message=' + this.message, requestOptions);
       this.showAlert();
       // Hide the modal manually
       this.$nextTick(() => {
@@ -611,13 +664,12 @@ a:hover {
 }
 
 
-
 /*Star Raiting*/
-.liStarRating{
+.liStarRating {
   list-style: none;
 }
 
-.ulStarRating{
+.ulStarRating {
   display: inline-block;
   vertical-align: top;
   padding-left: 0;
@@ -627,14 +679,16 @@ a:hover {
 
 /* small size screens */
 
-@media (max-width:700px){
+@media (max-width: 700px) {
 
-  p{
+  p {
     font-size: 15px;
   }
+
   li {
     font-size: 15px;
   }
+
   .frame-coding {
     pointer-events: none;
     width: 95%;
@@ -675,7 +729,7 @@ a:hover {
     margin: 10px auto;
   }
 
-  #about, #myExperience,   #myEducation, #mySkills,   #contact  {
+  #about, #myExperience, #myEducation, #mySkills, #contact {
     display: none;
 
   }

@@ -10,6 +10,7 @@ import {BootstrapVue, BootstrapVueIcons } from "bootstrap-vue";
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import StarRating from 'vue-star-rating';
+import cors from 'cors';
 
 library.add(fab, fas, far);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
@@ -18,6 +19,7 @@ Vue.component('font-awesome-layers-text', FontAwesomeLayersText);
 Vue.component('star-rating',StarRating);
 Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons);
+Vue.use(cors);
 
 Vue.config.productionTip = false
 
